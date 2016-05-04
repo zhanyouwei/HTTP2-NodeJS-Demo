@@ -1,0 +1,30 @@
+{
+  "name": "http2-node-demo",
+  "version": "1.0.0",
+  "description": "HTTP2 Node.js Demo",
+  "main": "http2test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhanyouwei/HTTP2-NodeJS-Demo.git"
+  },
+  "keywords": [
+    "HTTP2",
+    "Node"
+  ],
+  "author": {
+    "email": "zhanyouwei@icloud.com",
+    "name": "占友伟",
+    "url": "http://www.zhanyouwei.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhanyouwei/HTTP2-NodeJS-Demo/issues"
+  },
+  "homepage": "https://github.com/zhanyouwei/HTTP2-NodeJS-Demo#readme",
+  "dependencies": {
+    "http2": "^3.3.4"
+  }
+}

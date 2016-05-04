@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh">
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, minimal-ui"/>
+  <title>http1test</title>
+  <script src="//cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+<script>
+  $(function () {
+    for(var i=0;i<100;i++) {
+      $.get('http://localhost:8001/http1test', function (data) {
+        console.log(data);
+      });
+    }
+  });
+</script>
+</body>
+</html>
